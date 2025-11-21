@@ -82,9 +82,9 @@ Includes pass/fail counts, execution summary, and final status:
 
 | Requirement / Feature | Test Case | Execution Result | Jira Defect |
 |-----------------------|-----------|------------------|-------------|
-| Create Task | TC-Create-01 | Fail | Refer (Defects/BugReport.pdf) |
+| Create Task | TC-Create-01 | Fail | Refer BugReport.pdf |
 | Update Task | TC-Update-02 | Pass | - |
-| Delete Task | TC-Delete-03 | Fail | Refer (Defects/BugReport.pdf) |
+| Delete Task | TC-Delete-03 | Fail | Refer BugReport.pdf |
 | Read Task | TC-Filter-01 | Pass | - |
 
 
@@ -110,6 +110,6 @@ Includes pass/fail counts, execution summary, and final status:
 This project demonstrates hands-on experience with **manual testing**, **Jira defect lifecycle**, and **Zephyr Scale test management**.  
 It reflects a real-world QA workflow with complete documentation: test cases → execution → defects → reports → traceability.
 
----
+
 
 
