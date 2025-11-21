@@ -82,10 +82,10 @@ Includes pass/fail counts, execution summary, and final status:
 
 | Requirement / Feature | Test Case | Execution Result | Jira Defect |
 |-----------------------|-----------|------------------|-------------|
-| Create Task | TC-Create-01 | Fail | Refer BugReport.pdf |
-| Update Task | TC-Update-02 | Pass | - |
-| Delete Task | TC-Delete-03 | Fail | Refer BugReport.pdf |
-| Read Task | TC-Filter-01 | Pass | - |
+| Create Task | TDL-T8 | Fail | Refer BugReport.pdf |
+| Update Task | TDL-T22 | Pass | - |
+| Delete Task | TDL-T37 | Fail | Refer BugReport.pdf |
+| Read Task | TDL-T18 | Pass | - |
 
 
 
