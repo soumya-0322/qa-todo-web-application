@@ -1,51 +1,121 @@
-# 📌 To-Do List Web Application – QA Project
-*  **Project Overview**
 
-This project focuses on testing a To-Do List Web Application by validating core functionalities such as adding tasks, editing tasks, filtering tasks, updating status, and verifying UI behavior.
+# 📌 To-Do List Web Application – Manual QA Project
 
-*  **Tools Used**
+This repository contains a **complete manual testing project** for the To-Do List Web Application.  
+The goal of this project is to validate all core functionalities including task creation, updating, deletion, status update, and UI behavior.  
+All testing activities were performed using **Jira** (for defect tracking) and **Zephyr Scale** (for test management).
 
-1. Jira – Defect Logging
-2. Zephyr Scale – Test Case Management
-3. GitHub – Documentation Hosting
+---
 
-* **Scope of Testing**
+## 🚀 Project Highlights
 
-1. Functional Testing
-2. UI Testing
-3. Negative Testing
-4. Regression Scenarios
-5. Boundary Value Testing (BVA)
-6. Exploratory Testing
+- Designed and executed **detailed test scenarios & test cases**
+- Logged defects in **Jira** with proper severity and priority levels
+- Managed test execution using **Zephyr Scale**
+- Prepared documentation including **execution reports**, **traceability**, and **screenshots**
+- Demonstrates real-world QA workflow from planning → execution → reporting
 
-* **Test Artifacts**
+---
 
-1. ✔ Test Cases	
-2. ✔ Defects	
-3. ✔ Test Cycle	
-4. ✔ projectscreenshots	
-5. ✔ Reports	
+## 🛠 Tools & Technologies Used
 
-* **Metrics Summary**
+| Category | Tools |
+|---------|--------|
+| Test Management | **Zephyr Scale** |
+| Defect Tracking | **Jira** |
+| Documentation & Reports | Excel, PDF |
+| OS / Browser | Windows 11, Chrome |
 
-1. Total Test Cases:-41
-2. Executed:-41
-3. Passed:-29
-4. Failed:-12
-5. Blocked:-3
-6. Total Defects Logged:-13
+---
 
-* **Key Features Tested**
+## 📄 Test Artifacts
 
-1. Adding a new task
-2. Editing an existing task
-3. Deleting tasks
-4. Marking tasks completed/active
-5. Filtering: All, Active, Completed
-6. Validation on empty input
-7. UI behavior consistency
+### 🔹 **1. Test Cases**
+All test cases are organized based on CRUD operations:
 
-* **Conclusion**
+- [Create Test Cases](TestCases/Create_TestCases.xlsx)  
+- [Read Test Cases](TestCases/Read_TestCases.xlsx)  
+- [Update Test Cases](TestCases/Update_TestCases.xlsx)  
+- [Delete Test Cases](TestCases/DeleteTestCases.xlsx)  
 
-This project strengthened my skills in manual testing, bug reporting, test case design, and using Jira + Zephyr Scale effectively.
-All artifacts are provided for interview evaluation.
+---
+
+### 🔹 **2. Jira Bug Report**
+Full list of logged defects with description, steps, severity, and screenshots:
+
+👉 [Bug Report (PDF)](Defects/BugReport.pdf)
+
+Screenshots available here:  
+👉 `Defects/DefectsScreenshots/`
+
+---
+
+### 🔹 **3. Zephyr Test Cycle Execution**
+Includes pass/fail counts, execution summary, and final status:
+
+- [Test Cycle Report 1](TestCycle/TestCycleReport1.pdf)  
+- [Test Cycle Report 2](TestCycle/TestCycleReport2.pdf)  
+- ![Test Cycle UI](TestCycle/UI-TestCycle.png)
+
+---
+
+### 🔹 **4. Project Reports**
+- [Execution Summary](Reports/TestExecutionReport.pdf)  
+- [Traceability Report](Reports/TraceabilityReport.pdf)
+
+---
+
+## 📊 Metrics Summary
+
+| Metric | Count |
+|--------|-------|
+| **Total Test Cases** | *Add your number here* |
+| **Executed** | *Add number* |
+| **Passed** | *Add number* |
+| **Failed** | *Add number* |
+| **Blocked** | *Add number (if any)* |
+| **Total Defects Logged** | *Add number* |
+
+---
+
+## 🔗 Traceability Snapshot
+
+| Requirement / Feature | Test Case | Execution Result | Jira Defect |
+|-----------------------|-----------|------------------|-------------|
+| Create Task | TC-Create-01 | Fail | Refer BugReport.pdf |
+| Update Task | TC-Update-02 | Pass | - |
+| Delete Task | TC-Delete-03 | Fail | Refer BugReport.pdf |
+| Filter Tasks | TC-Filter-01 | Pass | - |
+
+(You can update this table with your real TC IDs.)
+
+---
+
+## 🧪 Key Functional Areas Tested
+
+- Adding new tasks  
+- Editing an existing task  
+- Deleting tasks  
+- Marking tasks as completed/active  
+- Filtering tasks (All / Active / Completed)  
+- Input validation  
+- UI compliance  
+- Negative test behavior  
+- Regression checks after updates  
+
+---
+
+## 📝 Conclusion
+
+This project demonstrates hands-on experience with **manual testing**, **Jira defect lifecycle**, and **Zephyr Scale test management**.  
+It reflects a real-world QA workflow with complete documentation: test cases → execution → defects → reports → traceability.
+
+---
+
+If you want, I can also:
+
+✅ Rewrite your **Agile Travel project README**  
+✅ Build your **Sweet Shop project README**  
+✅ Create a **portfolio page** for GitHub  
+
+
