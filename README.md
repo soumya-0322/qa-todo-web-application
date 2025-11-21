@@ -69,12 +69,12 @@ Includes pass/fail counts, execution summary, and final status:
 
 | Metric | Count |
 |--------|-------|
-| **Total Test Cases** | *Add your number here* |
-| **Executed** | *Add number* |
-| **Passed** | *Add number* |
-| **Failed** | *Add number* |
-| **Blocked** | *Add number (if any)* |
-| **Total Defects Logged** | *Add number* |
+| **Total Test Cases** | *41* |
+| **Executed** | *41* |
+| **Passed** | *29* |
+| **Failed** | *12* |
+| **Blocked** | *3* |
+| **Total Defects Logged** | *19* |
 
 ---
 
@@ -82,12 +82,12 @@ Includes pass/fail counts, execution summary, and final status:
 
 | Requirement / Feature | Test Case | Execution Result | Jira Defect |
 |-----------------------|-----------|------------------|-------------|
-| Create Task | TC-Create-01 | Fail | Refer BugReport.pdf |
+| Create Task | TC-Create-01 | Fail | Refer (Defects/BugReport.pdf) |
 | Update Task | TC-Update-02 | Pass | - |
-| Delete Task | TC-Delete-03 | Fail | Refer BugReport.pdf |
-| Filter Tasks | TC-Filter-01 | Pass | - |
+| Delete Task | TC-Delete-03 | Fail | Refer (Defects/BugReport.pdf) |
+| Read Task | TC-Filter-01 | Pass | - |
 
-(You can update this table with your real TC IDs.)
+
 
 ---
 
@@ -111,11 +111,5 @@ This project demonstrates hands-on experience with **manual testing**, **Jira de
 It reflects a real-world QA workflow with complete documentation: test cases → execution → defects → reports → traceability.
 
 ---
-
-If you want, I can also:
-
-✅ Rewrite your **Agile Travel project README**  
-✅ Build your **Sweet Shop project README**  
-✅ Create a **portfolio page** for GitHub  
 
 
